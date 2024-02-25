@@ -7,5 +7,5 @@ fn main() {
     let r = 'R';
     let emoji = "❤️";
 
-    let tup: (i32, f64, u8) = (500, 6.4, 1);
+    let tup: (i32, f64, u8, &str) = (500, 6.4, 1, "df");
 }
