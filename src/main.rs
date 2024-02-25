@@ -1,11 +1,9 @@
 fn main() {
-    // addition
-    let sum = 5 + 10;
-    println!("{sum}");
-    let f = false;
-    let t = "T";
-    let r = 'R';
-    let emoji = "❤️";
+    let x = plus_one(5);
 
-    let tup: (i32, f64, u8, &str) = (500, 6.4, 1, "df");
+    println!("The value of x is: {x}");
+}
+
+fn plus_one(x: i32) -> i32 {
+    x + 1
 }
